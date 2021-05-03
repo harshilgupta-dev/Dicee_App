@@ -36,7 +36,7 @@ class _DicePageState extends State<DicePage> {
                 });
               },
               child: Image.asset(
-                  'images/dice1.png'
+                  'images/dice$leftDiceNumber.png'
               ),
             ),
           ),
@@ -48,7 +48,7 @@ class _DicePageState extends State<DicePage> {
                 });
               },
               child: Image.asset(
-                  'images/dice1.png'
+                  'images/dice$rightDiceNumber.png'
               ),
             ),
           ),
